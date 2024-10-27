@@ -1,0 +1,126 @@
+/* Container styles */
+.appointment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+   
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Form section */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8ff;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #6a0dad;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+/* Button styles */
+.add-button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: not-allowed;
+    margin-top: 10px;
+}
+
+/* Image section */
+.image-container {
+    flex-shrink: 0;
+}
+
+.appointment-image {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Appointed section */
+.ap {
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.ap h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Appointment Item styles (if any specific styles needed for AppointmentItem) */
+.appointment-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-item .title {
+    font-weight: bold;
+    color: #333;
+}
+
+.appointment-item .date {
+    color: #666;
+    font-size: 14px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
